@@ -1,0 +1,39 @@
+label.control-label {
+    color: #fff;
+    padding-bottom: 10px;
+}
+.contents {
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.5);
+    padding: 30px 40px;
+    border: 5px solid rgba(95, 78, 78, 0.3);
+}
+input#firstname,input#lastname,input#inputEmail,input#Phone,input#inputPassword,input#inputPasswordConfirm {
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	-o-border-radius:0;
+	-ms-border-radius:0;
+}
+input#firstname,input#lastname,input#inputEmail,input#Phone {
+	width: 100%;
+    height: 45px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    background-color: rgba(53, 33, 32, 0.42);
+    border: 1px solid rgb(177, 177, 177);
+}
+input#inputPassword,input#inputPasswordConfirm {
+	width: 100%;
+    height: 45px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    background-color: rgba(53, 33, 32, 0.42);
+    border: 1px solid rgb(177, 177, 177);
+}
+.help-block.with-errors {
+	color: #dc423f;
+}
